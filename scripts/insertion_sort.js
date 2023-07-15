@@ -1,5 +1,3 @@
-
-
 function Insertion()
 {
     //Setting Time complexities
@@ -22,8 +20,9 @@ function Insertion()
         {
             div_update(divs[i],div_sizes[i],"red");//Color update
             div_update(divs[i+1],div_sizes[i+1],"red");//Color update
-
+            var temp=div_sizes[i+1];
             div_sizes[i+1]=div_sizes[i];
+            div_sizes[i]=temp;
 
             div_update(divs[i],div_sizes[i],"red");//Height update
             div_update(divs[i+1],div_sizes[i+1],"red");//Height update
