@@ -96,12 +96,13 @@ section {
 
 #Info_Cont1,
 #Info_Cont2 {
-  background-color: #fff;
+  background-color: #333;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
   text-align: center;
+  color: #fff;
 }
 
 #Info_Cont1 h3,
